@@ -132,8 +132,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate , GMSMapViewDe
             leadingConstraint.constant = 0
             traillingConstraint.constant = 0
         }else{
-            leadingConstraint.constant = 100
-            traillingConstraint.constant = 100
+            leadingConstraint.constant = 150
+            traillingConstraint.constant = 150
         }
         UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()} )
         menuShowing = !menuShowing

@@ -104,6 +104,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Bn9-3Q-0n6">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOr-Nn-lgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="ctU-Cw-AB9" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OVo-Ye-GEL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -113,7 +114,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5nk-Zt-MpF"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UOr-Nn-lgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-98" y="-158"/>
         </scene>
