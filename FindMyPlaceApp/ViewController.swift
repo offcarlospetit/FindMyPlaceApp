@@ -27,9 +27,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate , GMSMapViewDe
         nav?.tintColor = UIColor.black
         
         //menu settings
-        googleMapsView.layer.shadowOpacity = 2
-        googleMapsView.layer.shadowRadius = 10
-        
+        //googleMapsView.layer.shadowOpacity = 2
+        //googleMapsView.layer.shadowRadius = 10
         
         locationManager = CLLocationManager()
         locationManager.delegate = self
