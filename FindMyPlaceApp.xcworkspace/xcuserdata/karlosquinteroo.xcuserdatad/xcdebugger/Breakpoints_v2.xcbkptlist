@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindMyPlaceApp/ViewController.swift"
+            timestampString = "538693538.671023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindMyPlaceApp/ViewController.swift"
+            timestampString = "538693538.671893"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindMyPlaceApp.ViewController.locationManager.getter : __ObjC.CLLocationManager"
+                  moduleName = "FindMyPlaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karlosquinteroo/Desktop/practicas%20swift/FindMyPlaceApp/FindMyPlaceApp/ViewController.swift"
+                  timestampString = "538691639.342066"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindMyPlaceApp.ViewController.locationManager.setter : __ObjC.CLLocationManager"
+                  moduleName = "FindMyPlaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karlosquinteroo/Desktop/practicas%20swift/FindMyPlaceApp/FindMyPlaceApp/ViewController.swift"
+                  timestampString = "538691639.346289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindMyPlaceApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FindMyPlaceApp.ViewController"
+                  moduleName = "FindMyPlaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karlosquinteroo/Desktop/practicas%20swift/FindMyPlaceApp/FindMyPlaceApp/ViewController.swift"
+                  timestampString = "538691639.350149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindMyPlaceApp.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FindMyPlaceApp.ViewController&gt;"
+                  moduleName = "FindMyPlaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karlosquinteroo/Desktop/practicas%20swift/FindMyPlaceApp/FindMyPlaceApp/ViewController.swift"
+                  timestampString = "538691639.35357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

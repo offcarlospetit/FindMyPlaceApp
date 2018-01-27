@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A308AA0129B0619DA61AA0DC /* libPods-FindMyPlaceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFEBD484520740D0ECCD41D /* libPods-FindMyPlaceApp.a */; };
 		C25790352016D28500E118FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25790342016D28500E118FA /* AppDelegate.swift */; };
 		C25790372016D28500E118FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25790362016D28500E118FA /* ViewController.swift */; };
 		C257903A2016D28500E118FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25790382016D28500E118FA /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		C25790422016D28500E118FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25790402016D28500E118FA /* LaunchScreen.storyboard */; };
 		C257904D2016D28500E118FA /* FindMyPlaceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257904C2016D28500E118FA /* FindMyPlaceAppTests.swift */; };
 		C25790582016D28500E118FA /* FindMyPlaceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25790572016D28500E118FA /* FindMyPlaceAppUITests.swift */; };
+		C25790662016D56300E118FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C25790652016D56300E118FA /* Podfile */; };
+		C2EBBA6D20196364005807A4 /* iOS in Resources */ = {isa = PBXBuildFile; fileRef = C2EBBA6C20196364005807A4 /* iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DFEBD484520740D0ECCD41D /* libPods-FindMyPlaceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyPlaceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CFCFA5F074295BF26FD7E6 /* Pods-FindMyPlaceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyPlaceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyPlaceApp/Pods-FindMyPlaceApp.release.xcconfig"; sourceTree = "<group>"; };
 		C25790312016D28500E118FA /* FindMyPlaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyPlaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25790342016D28500E118FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25790362016D28500E118FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		C25790532016D28500E118FA /* FindMyPlaceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPlaceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25790572016D28500E118FA /* FindMyPlaceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyPlaceAppUITests.swift; sourceTree = "<group>"; };
 		C25790592016D28500E118FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25790652016D56300E118FA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2EBBA6C20196364005807A4 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOS; sourceTree = "<group>"; };
+		CEB6DBE999BA83694D4D73AC /* Pods-FindMyPlaceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyPlaceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyPlaceApp/Pods-FindMyPlaceApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A308AA0129B0619DA61AA0DC /* libPods-FindMyPlaceApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D2FEAE5A1E0033EB81A648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6DBE999BA83694D4D73AC /* Pods-FindMyPlaceApp.debug.xcconfig */,
+				76CFCFA5F074295BF26FD7E6 /* Pods-FindMyPlaceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A748276374EFA7E743F53A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEBD484520740D0ECCD41D /* libPods-FindMyPlaceApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C25790282016D28400E118FA = {
 			isa = PBXGroup;
 			children = (
+				C25790652016D56300E118FA /* Podfile */,
 				C25790332016D28500E118FA /* FindMyPlaceApp */,
 				C257904B2016D28500E118FA /* FindMyPlaceAppTests */,
 				C25790562016D28500E118FA /* FindMyPlaceAppUITests */,
 				C25790322016D28500E118FA /* Products */,
+				80D2FEAE5A1E0033EB81A648 /* Pods */,
+				A748276374EFA7E743F53A71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +133,7 @@
 				C25790382016D28500E118FA /* Main.storyboard */,
 				C257903E2016D28500E118FA /* Assets.xcassets */,
 				C25790402016D28500E118FA /* LaunchScreen.storyboard */,
+				C2EBBA6C20196364005807A4 /* iOS */,
 				C25790432016D28500E118FA /* Info.plist */,
 				C257903B2016D28500E118FA /* FindMyPlaceApp.xcdatamodeld */,
 			);
@@ -135,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C257905C2016D28500E118FA /* Build configuration list for PBXNativeTarget "FindMyPlaceApp" */;
 			buildPhases = (
+				C16484AC68673E2D30DB73E9 /* [CP] Check Pods Manifest.lock */,
 				C257902D2016D28400E118FA /* Sources */,
 				C257902E2016D28400E118FA /* Frameworks */,
 				C257902F2016D28400E118FA /* Resources */,
+				990A9DDFEAEBE2C28B3404FA /* [CP] Embed Pods Frameworks */,
+				D0EDFA454F47745195DECB0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2EBBA6D20196364005807A4 /* iOS in Resources */,
 				C25790422016D28500E118FA /* LaunchScreen.storyboard in Resources */,
 				C257903F2016D28500E118FA /* Assets.xcassets in Resources */,
+				C25790662016D56300E118FA /* Podfile in Resources */,
 				C257903A2016D28500E118FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +291,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		990A9DDFEAEBE2C28B3404FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyPlaceApp/Pods-FindMyPlaceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16484AC68673E2D30DB73E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyPlaceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EDFA454F47745195DECB0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindMyPlaceApp/Pods-FindMyPlaceApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyPlaceApp/Pods-FindMyPlaceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C257902D2016D28400E118FA /* Sources */ = {
@@ -428,6 +519,7 @@
 		};
 		C257905D2016D28500E118FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB6DBE999BA83694D4D73AC /* Pods-FindMyPlaceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +535,7 @@
 		};
 		C257905E2016D28500E118FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CFCFA5F074295BF26FD7E6 /* Pods-FindMyPlaceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

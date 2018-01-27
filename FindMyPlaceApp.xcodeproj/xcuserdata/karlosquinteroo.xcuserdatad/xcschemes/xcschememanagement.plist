@@ -7,7 +7,25 @@
 		<key>FindMyPlaceApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C25790302016D28400E118FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C25790472016D28500E118FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C25790522016D28500E118FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
